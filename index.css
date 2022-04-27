@@ -1,0 +1,29 @@
+.board
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    display:grid;
+    height: 300px;
+    width: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.grid-item
+{
+    border: 2px solid black;
+    border-color:black;
+    text-align: center;
+    background-color:aqua;
+}
+.grid-item:hover
+{
+    background-color: aquamarine;
+}
+button
+{
+    margin: 0;
+    margin-top:5%;
+    position: absolute;
+    left: 47.5%;
+}
